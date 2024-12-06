@@ -8,55 +8,43 @@ Persistent storage using a JSON file
 Installation
 Clone the repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/username/task-cli.git
+
+git clone https://github.com/richa9760/task-cli.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd task-cli
 Make the script executable (Linux/macOS only):
 
-bash
-Copy code
+
 chmod +x task-cli
 Usage
 Adding a Task
-bash
-Copy code
+
 ./task-cli add "Your task description"
 Listing All Tasks
-bash
-Copy code
+
 ./task-cli list
 Listing Completed Tasks
-bash
-Copy code
+
 ./task-cli list --status done
 Listing Pending Tasks
-bash
-Copy code
+
 ./task-cli list --status todo
 Listing Tasks in Progress
-bash
-Copy code
+
 ./task-cli list --status in-progress
 Updating a Task
-bash
-Copy code
+
 ./task-cli update <task_id> "Updated task description"
 Marking a Task as In Progress
-bash
-Copy code
+
 ./task-cli update <task_id> --status in-progress
 Marking a Task as Done
-bash
-Copy code
+
 ./task-cli update <task_id> --status done
 Deleting a Task
-bash
-Copy code
+
 ./task-cli delete <task_id>
 File Storage
 Tasks are stored in a JSON file located in the project's directory. If the file does not exist, it will be created automatically.
