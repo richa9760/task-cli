@@ -5,30 +5,31 @@ Task-CLI is a command-line tool for efficient task management. With this simple 
 
 
 Features 🚀
-Add, Update, and Delete tasks
-Mark tasks as "in progress" or "done"
-List all tasks or filter by status (todo, in-progress, done)
-Persistent data storage using a JSON file
+- Add, Update, and Delete tasks
+- Mark tasks as "in progress" or "done"
+- List all tasks or filter by status (todo, in-progress, done)
+- Persistent data storage using a JSON file
+
 Installation 💻
-Prerequisites
-Python 3.x installed on your system.
-Steps to Install
-Clone the repository:
+- Prerequisites
+    - Python 3.x installed on your system.
+- Steps to Install
+    - Clone the repository:
 
 ```
 git clone https://github.com/richa9760/task-cli.git
 
 ```
-Navigate to the project directory:
+    - Navigate to the project directory:
 
 
 ```cd task-cli```
 
-Make the script executable (Linux/macOS only):
+M   - ake the script executable (Linux/macOS only):
 
 ```chmod +x task-cli```
 
-Run the Script
+    - Run the Script
 To run the task-cli, use:
 
 
