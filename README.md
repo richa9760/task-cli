@@ -8,8 +8,9 @@ Persistent storage using a JSON file
 Installation
 Clone the repository to your local machine:
 
-
+```
 git clone https://github.com/richa9760/task-cli.git
+```
 Navigate to the project directory:
 
 
